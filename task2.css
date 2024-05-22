@@ -1,0 +1,91 @@
+/* task2.css */
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    margin: 0;
+   background-image: url("https://img.freepik.com/premium-photo/tropical-background_921860-16275.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ background-color: black;
+
+.stopwatch {
+    text-align: center;
+    background: linear-gradient(to right, #003973, #e5e5be);
+    opacity: 0.9;
+    padding: 20px;
+   height: 350px;
+   width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 540px;
+    
+}
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    position: relative;
+    top: 40px;
+    
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    display: inline-flex;
+    margin: 5px;
+    position: relative;
+    top: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+  
+}
+
+#start {
+    background-color:rgba(167, 236, 227, 0.6);
+    color:black;
+}
+
+#pause {
+    background-color:rgba(167, 236, 227, 0.6);
+    color:black;
+}
+
+#reset {
+    background-color:rgba(167, 236, 227, 0.6);
+    color:black;
+}
+
+#lap{
+    background-color:rgba(167, 236, 227, 0.6);
+    color:black;
+    
+    
+}
+
+
+#box{
+    height: 330px;
+    width:330px;
+    font-size:30px;
+    color: white;
+    /* background-color: aliceblue; */
+    position: fixed;
+    right:40px;
+    top:170px;
+   
+}
+
+h1{
+    position: relative;
+    top:10px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
