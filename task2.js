@@ -35,7 +35,7 @@ function flashButtonColor(button) {
     setTimeout(() => {
         button.style.backgroundColor = "";
         button.style.color = "";
-    }, 200); // Change color back after 200 milliseconds
+    }, 200); 
 }
 
 
